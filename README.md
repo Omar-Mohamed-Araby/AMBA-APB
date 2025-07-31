@@ -22,8 +22,6 @@ This APB system provides a fundamental platform to demonstrate how multiple memo
   - Supports flexible address mapping, easily adjustable per system requirements.
 
 - **Slave Modules:**
-  - **Wait-State Slave** simulates peripherals that require processing time before providing data.
-  - **No-Wait Slave** returns data immediately, simulating fast memory access.
   - Each slave features:
     - 32-bit data bus
     - Memory depth of 8KB, addressable word-by-word
@@ -55,27 +53,5 @@ This APB system provides a fundamental platform to demonstrate how multiple memo
 
 ---
 
-## 📂 Repository Structure
 
-📁 apb_memory_system/
-├── src/ # All Verilog source files
-│ ├── apb_wrapper.v
-│ ├── slave_wait.v
-│ └── slave_nowait.v
-├── tb/ # Simulation testbench
-│ └── tb_apb.v
-├── doc/ # Block diagrams, report, and figures
-│ └── img # (image used in this README)
-└── README.md
-
-yaml
-نسخ
 تحرير
-
----
-
-## 📸 Preview
-
-![Block Diagram](img)
-
----
