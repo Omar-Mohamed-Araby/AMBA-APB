@@ -1,6 +1,6 @@
 # 🧠 AMBA APB-Based Multi-Slave Memory-Mapped System
 
-![Project Block Diagram](img)
+![Project Block Diagram](img.png)
 
 ## 📌 Summary
 
